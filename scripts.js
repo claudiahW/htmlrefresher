@@ -1,3 +1,5 @@
+// geolocation Api
+
 const x = document.getElementById("demo");
 
 
@@ -27,3 +29,19 @@ function getLocation() {
                     break;
     }
   }
+
+//   Geolocation is also very useful for location-specific information, like:
+
+// Up-to-date local information
+// Showing Points-of-interest near the user
+// Turn-by-turn navigation (GPS)
+
+// Drag and Drop API
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text",ev.target.id);
+}
