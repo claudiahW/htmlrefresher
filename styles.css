@@ -1,16 +1,57 @@
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-  }
+/* unvisited link
+a:link {
+  color:red;
+  text-decoration: none;
+}
+/* visited link */
+/* a:visited {
+  color:green;
+  text-decoration: none;
+} */
+/* mouse over link */
+/* a:hover {
+  color: hotpink;
+  text-decoration: none;
+} */
+/* selected link */
+/* a:active {
+color: blue;
+text-decoration: none;
+} */ 
+/* this is a css comment */
 
+/* css/html supports 140 standard color names */
 
-  #div1 {
-    width: 350px;
-    height: 70px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
-  }
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;}
+
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+th {
+  height: 30px;
+}
